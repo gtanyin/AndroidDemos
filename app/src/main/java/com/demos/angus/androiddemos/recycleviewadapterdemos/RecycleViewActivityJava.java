@@ -1,19 +1,16 @@
-package com.demos.angus.androiddemos;
+package com.demos.angus.androiddemos.recycleviewadapterdemos;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.demos.angus.androiddemos.Base.BaseAcitvity;
-import com.demos.angus.androiddemos.Model.Person;
+import com.demos.angus.androiddemos.R;
+import com.demos.angus.androiddemos.base.BaseAcitvity;
+import com.demos.angus.androiddemos.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +21,7 @@ import butterknife.BindView;
  * Created by angus on 2017/9/15.
  */
 
-public class MainActivityJava extends BaseAcitvity {
+public class RecycleViewActivityJava extends BaseAcitvity {
 
     @BindView(R.id.recyclerview)
     RecyclerView recyclerView;

@@ -1,4 +1,4 @@
-package com.demos.angus.androiddemos.Model
+package com.demos.angus.androiddemos.model
 
 /**
  * Created by angus on 2017/9/15.

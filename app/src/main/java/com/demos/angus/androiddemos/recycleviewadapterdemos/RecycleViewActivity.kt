@@ -1,19 +1,18 @@
-package com.demos.angus.androiddemos
+package com.demos.angus.androiddemos.recycleviewadapterdemos
 
-import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.demos.angus.androiddemos.Base.BaseAcitvity
-import com.demos.angus.androiddemos.Model.Person
+import com.demos.angus.androiddemos.R
+import com.demos.angus.androiddemos.base.BaseAcitvity
+import com.demos.angus.androiddemos.model.Person
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.ArrayList
 
-class MainActivity : BaseAcitvity() {
+class RecycleViewActivity : BaseAcitvity() {
 
     private lateinit var people: ArrayList<Person>
 
